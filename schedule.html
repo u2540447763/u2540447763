@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Schedule — GreenLeaf Yoga</title>
+  <meta name="description" content="Daily yoga class schedule with times and teachers." />
+  <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="color-scheme" content="light dark" />
+<link rel="stylesheet" href="style.css" />
+<script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html" aria-label="GreenLeaf Yoga home">
+      <span class="logo-mark">⬤</span> GreenLeaf Yoga
+    </a>
+    <button id="menuToggle" class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="primaryNav" class="nav-links">
+  <a href="index.html">Home</a>
+  <a href="classes.html">Classes</a>
+  <a href="schedule.html">Schedule</a>
+  <a href="instructors.html">Instructors</a>
+  <a href="pricing.html">Pricing</a>
+  <a href="blog.html">Blog</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="about.html">About</a>
+  <a href="faq.html">FAQ</a>
+  <a href="contact.html">Contact</a>
+</nav>
+  </div>
+</header>
+  <main id="main" class="container">
+    <h1>Schedule</h1>
+    <p>Drop in anytime — we keep it simple. Arrive 10 minutes early to settle in.</p>
+    <div class="table-wrap">
+      <table id="schedule-table" aria-describedby="schedule-desc">
+        <caption id="schedule-desc">Weekly class schedule</caption>
+        <thead>
+          <tr><th>Day</th><th>Time</th><th>Class</th><th>Teacher</th></tr>
+        </thead>
+        <tbody>
+          <!-- Populated by script.js -->
+        </tbody>
+      </table>
+    </div>
+
+    <h2 id="workshops">Workshops</h2>
+    <ul class="list">
+      <li><strong>Deep Rest</strong> — Second Saturday, 6:00–7:30pm (Mara)</li>
+      <li><strong>Inversions 101</strong> — Last Sunday, 2:00–4:00pm (Jon)</li>
+    </ul>
+  </main>
+  <footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h3>GreenLeaf Yoga</h3>
+      <p>Mindful movement for every body. Join our inclusive community and grow on and off the mat.</p>
+    </div>
+    <form id="newsletter-form" class="newsletter" novalidate>
+      <label for="newsletter-email">Subscribe for updates</label>
+      <div class="newsletter-row">
+        <input type="email" id="newsletter-email" name="email" placeholder="you@example.com" required aria-required="true" />
+        <button type="submit">Subscribe</button>
+      </div>
+      <p class="form-msg" id="newsletter-msg" role="status" aria-live="polite"></p>
+    </form>
+    <div class="footer-links">
+      <strong>Visit us</strong>
+      <p>123 Harmony Ave, Bloomington, IN</p>
+      <p><a href="mailto:hello@greenleafyoga.example">hello@greenleafyoga.example</a></p>
+      <p><a href="tel:+15551234567">+1 (555) 123‑4567</a></p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <small>© <span id="year"></span> GreenLeaf Yoga • <a href="faq.html#policies">Studio Policies</a></small>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Classes — GreenLeaf Yoga</title>
+  <meta name="description" content="Browse all yoga classes: Gentle, Vinyasa, Power, Yin, Restorative, and Foundations." />
+  <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="color-scheme" content="light dark" />
+<link rel="stylesheet" href="style.css" />
+<script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html" aria-label="GreenLeaf Yoga home">
+      <span class="logo-mark">⬤</span> GreenLeaf Yoga
+    </a>
+    <button id="menuToggle" class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="primaryNav" class="nav-links">
+  <a href="index.html">Home</a>
+  <a href="classes.html">Classes</a>
+  <a href="schedule.html">Schedule</a>
+  <a href="instructors.html">Instructors</a>
+  <a href="pricing.html">Pricing</a>
+  <a href="blog.html">Blog</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="about.html">About</a>
+  <a href="faq.html">FAQ</a>
+  <a href="contact.html">Contact</a>
+</nav>
+  </div>
+</header>
+  <main id="main" class="container">
+    <h1>Classes</h1>
+    <p>All classes are 60 minutes unless noted. Bring water and a curious mind. Mats available to borrow.</p>
+
+    <div class="grid3 class-grid">
+      <article class="card" id="gentle">
+        <h2>Gentle Flow</h2>
+        <p>A slow, soothing sequence to unwind and release tension.</p>
+        <p class="pill">All levels</p>
+      </article>
+      <article class="card" id="vinyasa">
+        <h2>Vinyasa</h2>
+        <p>Breath‑led flow linking postures in creative sequences.</p>
+        <p class="pill">Beginner‑friendly</p>
+      </article>
+      <article class="card" id="power">
+        <h2>Power</h2>
+        <p>Build heat and strength with dynamic movement.</p>
+        <p class="pill pill-warm">Intermediate</p>
+      </article>
+      <article class="card" id="yin">
+        <h2>Yin</h2>
+        <p>Long, meditative holds to nourish your connective tissues.</p>
+        <p class="pill">All levels</p>
+      </article>
+      <article class="card" id="restorative">
+        <h2>Restorative</h2>
+        <p>Fully supported postures for deep rest and nervous system reset.</p>
+        <p class="pill">All levels</p>
+      </article>
+      <article class="card" id="foundations">
+        <h2>Foundations</h2>
+        <p>Learn alignment, breath, and props for a safe, empowering practice.</p>
+        <p class="pill pill-cool">Great for beginners</p>
+      </article>
+    </div>
+  </main>
+  <footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h3>GreenLeaf Yoga</h3>
+      <p>Mindful movement for every body. Join our inclusive community and grow on and off the mat.</p>
+    </div>
+    <form id="newsletter-form" class="newsletter" novalidate>
+      <label for="newsletter-email">Subscribe for updates</label>
+      <div class="newsletter-row">
+        <input type="email" id="newsletter-email" name="email" placeholder="you@example.com" required aria-required="true" />
+        <button type="submit">Subscribe</button>
+      </div>
+      <p class="form-msg" id="newsletter-msg" role="status" aria-live="polite"></p>
+    </form>
+    <div class="footer-links">
+      <strong>Visit us</strong>
+      <p>123 Harmony Ave, Bloomington, IN</p>
+      <p><a href="mailto:hello@greenleafyoga.example">hello@greenleafyoga.example</a></p>
+      <p><a href="tel:+15551234567">+1 (555) 123‑4567</a></p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <small>© <span id="year"></span> GreenLeaf Yoga • <a href="faq.html#policies">Studio Policies</a></small>
+  </div>
+</footer>
+</body>
+</html>

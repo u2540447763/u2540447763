@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Gallery — GreenLeaf Yoga</title>
+  <meta name="description" content="Peek inside the studio and community events." />
+  <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="color-scheme" content="light dark" />
+<link rel="stylesheet" href="style.css" />
+<script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html" aria-label="GreenLeaf Yoga home">
+      <span class="logo-mark">⬤</span> GreenLeaf Yoga
+    </a>
+    <button id="menuToggle" class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="primaryNav" class="nav-links">
+  <a href="index.html">Home</a>
+  <a href="classes.html">Classes</a>
+  <a href="schedule.html">Schedule</a>
+  <a href="instructors.html">Instructors</a>
+  <a href="pricing.html">Pricing</a>
+  <a href="blog.html">Blog</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="about.html">About</a>
+  <a href="faq.html">FAQ</a>
+  <a href="contact.html">Contact</a>
+</nav>
+  </div>
+</header>
+  <main id="main" class="container">
+    <h1>Gallery</h1>
+    <div class="grid3 gallery" id="gallery">
+      <a href="https://images.unsplash.com/photo-1540206276204-3af25c08abc4?q=80&w=1200&auto=format&fit=crop" class="glight" aria-label="Open image 1">
+        <img src="https://images.unsplash.com/photo-1540206276204-3af25c08abc4?q=80&w=600&auto=format&fit=crop" alt="Cozy yoga studio with plants" loading="lazy" />
+      </a>
+      <a href="https://images.unsplash.com/photo-1519751138087-5a4aa5be3f7d?q=80&w=1200&auto=format&fit=crop" class="glight" aria-label="Open image 2">
+        <img src="https://images.unsplash.com/photo-1519751138087-5a4aa5be3f7d?q=80&w=600&auto=format&fit=crop" alt="Group class in progress" loading="lazy" />
+      </a>
+      <a href="https://images.unsplash.com/photo-1552196563-55cd4e45efb3?q=80&w=1200&auto=format&fit=crop" class="glight" aria-label="Open image 3">
+        <img src="https://images.unsplash.com/photo-1552196563-55cd4e45efb3?q=80&w=600&auto=format&fit=crop" alt="Yoga props neatly arranged" loading="lazy" />
+      </a>
+      <a href="https://images.unsplash.com/photo-1543872084-c7bd3822856b?q=80&w=1200&auto=format&fit=crop" class="glight" aria-label="Open image 4">
+        <img src="https://images.unsplash.com/photo-1543872084-c7bd3822856b?q=80&w=600&auto=format&fit=crop" alt="Sunlit pose by the window" loading="lazy" />
+      </a>
+      <a href="https://images.unsplash.com/photo-1546483875-ad9014c88eba?q=80&w=1200&auto=format&fit=crop" class="glight" aria-label="Open image 5">
+        <img src="https://images.unsplash.com/photo-1546483875-ad9014c88eba?q=80&w=600&auto=format&fit=crop" alt="Candlelit restorative setup" loading="lazy" />
+      </a>
+      <a href="https://images.unsplash.com/photo-1518609571773-39b7d303a86f?q=80&w=1200&auto=format&fit=crop" class="glight" aria-label="Open image 6">
+        <img src="https://images.unsplash.com/photo-1518609571773-39b7d303a86f?q=80&w=600&auto=format&fit=crop" alt="Outdoor community class" loading="lazy" />
+      </a>
+    </div>
+    <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image preview" hidden>
+      <button class="lightbox-close" aria-label="Close">&times;</button>
+      <img id="lightbox-img" alt="Preview" />
+    </div>
+  </main>
+  <footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h3>GreenLeaf Yoga</h3>
+      <p>Mindful movement for every body. Join our inclusive community and grow on and off the mat.</p>
+    </div>
+    <form id="newsletter-form" class="newsletter" novalidate>
+      <label for="newsletter-email">Subscribe for updates</label>
+      <div class="newsletter-row">
+        <input type="email" id="newsletter-email" name="email" placeholder="you@example.com" required aria-required="true" />
+        <button type="submit">Subscribe</button>
+      </div>
+      <p class="form-msg" id="newsletter-msg" role="status" aria-live="polite"></p>
+    </form>
+    <div class="footer-links">
+      <strong>Visit us</strong>
+      <p>123 Harmony Ave, Bloomington, IN</p>
+      <p><a href="mailto:hello@greenleafyoga.example">hello@greenleafyoga.example</a></p>
+      <p><a href="tel:+15551234567">+1 (555) 123‑4567</a></p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <small>© <span id="year"></span> GreenLeaf Yoga • <a href="faq.html#policies">Studio Policies</a></small>
+  </div>
+</footer>
+</body>
+</html>
